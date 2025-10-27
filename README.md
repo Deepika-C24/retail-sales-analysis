@@ -2,16 +2,6 @@
 
 A Python-based data analysis tool for retail sales transaction processing, discount impact analysis, and automated supplier order generation.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Format](#data-format)
-- [Analysis Functions](#analysis-functions)
-- [Output Examples](#output-examples)
-- [Technical Implementation](#technical-implementation)
-
 ## Overview
 
 This project analyzes retail sales data from January 2024 to provide business insights including:
@@ -26,18 +16,18 @@ The system processes over 2,000 transactions across 20 products to generate acti
 
 ## Features
 
-### 📊 Data Analysis
+### Data Analysis
 - **Discount Impact Analysis**: Compare sales patterns before/after discount policy changes
 - **Weekday Business Trends**: Calculate average transactions and revenue by day of week
 - **Return Cost Analysis**: Identify most expensive return days based on shelving costs
 - **Product Performance**: Track which products are underperforming
 
-### 📈 Reporting
+### Reporting
 - **Automated Supplier Orders**: Generate monthly restock orders based on sales volume
 - **Correlation Analysis**: Visualize relationships between product price and discount rates
 - **Custom Reports**: Generate formatted text reports for business decision-making
 
-### 🔍 Data Processing
+### Data Processing
 - CSV file parsing and validation
 - Date/time processing and conversion
 - Data aggregation and statistical analysis
@@ -247,52 +237,6 @@ Tuesday:   $13,890.25
 - **Datetime**: Date/time processing
 - **CSV Processing**: Custom file parsers
 
-### Code Structure
-```
-assignment2.ipynb
-├── Data Loading Functions
-│   ├── read_csv()
-│   └── convert_to_datetime()
-│
-├── Analysis Functions
-│   ├── discount_impact()
-│   ├── business_per_weekday()
-│   ├── most_expensive_return_day()
-│   ├── generate_order_info()
-│   ├── unwanted_products()
-│   └── discount_price_correlation()
-│
-└── Main Execution
-    └── main()
-```
-
-## Performance
-
-- Processes 2,100+ transactions in < 1 second
-- Handles 20 product categories
-- Generates comprehensive reports automatically
-- Scalable to larger datasets
-
-## Future Enhancements
-
-- [ ] Add database connectivity (PostgreSQL/SQLite)
-- [ ] Implement real-time data streaming
-- [ ] Create interactive web dashboard
-- [ ] Add predictive analytics (sales forecasting)
-- [ ] Export to multiple formats (Excel, PDF)
-- [ ] Add automated email reporting
-- [ ] Implement data quality checks
-
-## Use Cases
-
-This system is suitable for:
-- Small to medium retail businesses
-- Monthly sales reporting
-- Inventory management
-- Supplier relationship management
-- Business intelligence and analytics
-- Academic data analysis projects
-
 ## Educational Value
 
 This project demonstrates:
@@ -303,27 +247,14 @@ This project demonstrates:
 5. **Business Logic**: Implementing real-world business rules
 6. **Report Generation**: Creating formatted output for stakeholders
 
-## Contributing
-
-Contributions welcome! Areas for improvement:
-- Additional analysis functions
-- Performance optimizations
-- Unit test coverage
-- Documentation enhancements
-
 ## License
 
 This project is part of an academic assignment and is available for educational purposes.
 
 ## Author
 
-Deepika Chandrashekhar
-- University of Alberta
-- Computer Science - Artificial Intelligence
-- Email: dchandr1@ualberta.ca
+*Deepika Chandrashekhar*
 
-## Acknowledgments
-
-- Course: Data Analysis / Introduction to Programming
-- Assignment: Sales Data Analysis Project
-- Data: Synthetic retail transactions (January 2024)
+•⁠  ⁠GitHub: [@Deepika-C24](https://github.com/Deepika-C24)
+•⁠  ⁠LinkedIn: [deepika-chandrashekhar](https://www.linkedin.com/in/deepika-chandrashekhar/)
+•⁠  ⁠Email: dchandr1@ualberta.ca

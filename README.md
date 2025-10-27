@@ -1,7 +1,5 @@
 # Sales Data Analysis & Reporting System
 
-A Python-based data analysis tool for retail sales transaction processing, discount impact analysis, and automated supplier order generation.
-
 ## Overview
 
 This project analyzes retail sales data from January 2024 to provide business insights including:
